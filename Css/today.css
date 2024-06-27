@@ -1,0 +1,149 @@
+
+#particles-js {
+  position: fixed;
+  height: 723px;
+  width: 1200px;
+}
+
+.container{
+  position: absolute;
+  left: 100px;
+  pointer-events: none;
+}
+
+.btn-audio{
+  pointer-events: auto;
+  width: 400px;
+  height: 150px;
+  border: 1px solid #ebebeb;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+  margin: 10px 0;
+  display: flex;
+  position: relative;
+  left: 700px;
+}
+
+.btn-audio .lf{
+  padding-left: 30px;
+}
+
+.btn-audio .lf img{
+  width: 35px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.general{
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.banner{
+  height:420px;
+  display:flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.guidance{
+  width: 191px;
+  height: 49px;
+  padding: 13px 60px;
+  font-size:16px;
+  line-height: 23px;
+  color: #fff;
+  align-items: center;
+  background-color: #0092cb;
+}
+
+.nowList{  
+  width: 191px;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  position:fixed;
+}
+
+.nowList li{
+  width: 191px;
+  height: 46px;
+  padding: 13px 20px 10px;
+  background-color: #0092cb;
+  transition: all 0.5s;
+}
+
+.nowList li:last-child{
+  height: 49px;
+  padding-bottom: 13px;
+}
+
+.nowList a{
+  display: flex;
+  font-size:16px;
+  line-height: 23px;
+  color: #fff;
+  align-items: center;
+  background: url(../Image/right.png) no-repeat right center;
+}
+
+.nowList .active,.nowList a:hover{
+  color: #00a4ff;
+  background: url(../Image/right-hover.png) no-repeat right center;
+}
+
+.nowContent{
+  margin-left: 200px;
+}
+
+.nowContent li{
+  width: 800px;
+  height: 420px; 
+  padding: 20px;
+  position: relative;
+}
+
+.nowContent li h5{
+  font-size: 21px;
+  font-weight: 700;
+  color: #222;
+}
+
+.nowContent li img{
+  height: 300px;
+  float: left;
+}
+
+.nowContent li p{
+  text-indent: 2em;
+}
+
+.nowContent li .return{
+  width: 80px;
+  height: 22px;
+  text-align: center;
+  padding: 0 11px;
+  position: absolute;
+  border-radius: 11px;
+  right: 20px;
+  top: 20px;
+  border: solid 1px #222;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.nowContent li .return img{
+  width: 19px;
+  height: 19px;
+  vertical-align: middle;
+}
+
+.infor{
+  padding-top: 60px;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}

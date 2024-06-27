@@ -1,0 +1,142 @@
+
+.songs{
+  display: flex;
+}
+
+.lyrics-container {
+  margin-top: 10px;
+  width: 800px;
+  height: 150px;
+  padding: 10px;
+  background-color: #fdfdfd;
+}
+
+#lyrics {
+  width: 780px;
+  height: 60px;
+  overflow-y: auto;
+  text-align: center;
+  margin-top: 30px;
+  color: #ccc;
+  border: 1px solid #00a4ff;
+  border-radius: 5px;
+}
+
+.lyric-line {
+  transition: all 0.4s ease-in-out;
+}
+
+.highlight {
+  color: #00a4ff;
+  font-weight: bold;
+}
+
+.btn-audio{
+  width: 400px;
+  height: 150px;
+  border: 1px solid #ebebeb;
+  background-color: #fdfdfd;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+  margin: 10px 0 0 800px;
+  position: fixed;
+  display: flex;
+}
+
+.btn-audio .lf{
+  padding-left: 30px;
+}
+
+.btn-audio .lf img{
+  width: 35px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.books{
+  margin-top: 31px;
+}
+
+.top{
+  font-size: 21px;
+	line-height: 32px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.book{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.book li{
+  width: 228px;
+  height: 426px;
+  padding-bottom: 22px;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  position: relative;
+}
+
+.book li .intro{
+  width: 228px;
+  height: 311px;
+  background-color: #ffffff93;
+  position: absolute;
+  color:#666;
+  font-size: 12px;
+  opacity:0;
+  transition: all 0.5s;
+}
+
+.book li .intro:hover{
+  opacity:1;
+}
+
+.book li img{
+  width: 228px;
+  height: 311px;
+}
+
+.book li a{
+  width: 188px;
+  margin:20px 20px 0;
+  line-height: 20px;
+  flex:1;
+}
+
+.book li .s2{
+  margin:0 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color:#fa6400;
+  display:flex;
+  flex-direction: row;
+}
+
+.book li .s3{
+  font-size: 14px;
+  line-height: 20px;
+  color:#999;
+}
+
+.contries{
+  margin-top: 32px;
+}
+
+.contries .bottom{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infor{
+  padding-top: 60px;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}

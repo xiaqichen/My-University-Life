@@ -1,0 +1,146 @@
+.wrapper {
+  width:1200px;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #f3f5f7;
+}
+
+.head{
+  height: 100px;
+  background-color: #fff;
+}
+
+.head .wrapper{
+  display:flex;
+  padding-top: 20px;
+  /* background-color: blue; */
+  justify-content: space-between;
+}
+
+.logo img{
+  height: 60px;
+}
+
+.head .user{
+  height: 30px;
+  margin-top: 13px;
+  margin-left: 32px;
+  font-size:16px;
+  line-height: 30px;
+  color:#666;
+}
+
+.head .user img{
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.head .theme{
+  margin-top: 9px;
+  margin-right: 323px;
+  width: 150px;
+  height: 37px;
+  padding: 6px 6px ;
+  border-bottom: 2px solid #00a4ff ;
+}
+
+.head .theme h1{
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.elevator {
+  position: fixed;
+  right: 50%;
+  top: 200px;
+  z-index: 999;
+  margin-right: 640px;
+}
+
+.elevator ul{
+  width: 60px;
+  height: 370px;
+  background: #fff;
+  float: right;
+  border: 1px solid #f5f5f5;
+  position: relative;
+}
+
+.elevator ul li{
+  height: 60px;
+  padding: 15px;
+}
+
+.elevator ul li a{
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.elevator ul li a:hover,
+.elevator ul li a.active{
+  color: #00a4ff;
+}
+
+.target{
+  margin-top: 50px;
+}
+
+.target iframe{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

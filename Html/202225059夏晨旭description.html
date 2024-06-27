@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>202225059夏晨旭站点说明</title>
+  <link rel="stylesheet" href="../Css/description.css">
+  <link rel="stylesheet" href="../Css/base.css">
+</head>
+<body>
+    <!-- 播放器部分 -->
+    <div class="btn-audio">
+      <div style="width: 130px; height: 130px; background-color:#dcdcdc; padding: 5px; margin: 10px; border-radius: 50%; border: solid 1px #888;">
+        <div style="width: 120px; height: 120px; background-color:#333; padding: 15px; border-radius: 50%;">
+          <img src="../Image/Clear Sky - Call of Silence（Clear Sky Remix）.jpg" id="songsPic" alt="" style="width: 90px; border-radius: 50%;">
+        </div>
+      </div>
+      <div class="lf">
+        <div style="height: 80px;">
+          <p style="font-size: 1.2rem; color: #333;margin: 1rem 0 0.3rem 0;">Call of Silence</p>
+          <p style="font-size: 1rem; color: #888;">这首歌敬自由</p>  
+        </div>
+        <img src="../Image/上一首.png" alt="">
+        <img src="../Image/播放.png" alt="">
+        <img src="../Image/下一首.png" alt="">
+      </div>
+      <img src="../Image/背景音乐.png" alt="" style="width: 2rem;position: absolute;bottom: 0.5rem;right: 0.5rem;">
+      <div class="mp3Box">
+        <audio id="mp3Btn">
+            <source src="../Sound/Clear Sky - Call of Silence（Clear Sky Remix）.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    </div>
+    <!-- 说明内容部分 -->
+    <div class="general">
+      <div class="article-container">
+        <div class="article-container__content">
+          <div class="title-container">
+            <h1 class="title">
+              站点说明
+            </h1>
+            <span class="publish-text">2024年06月18日 09:34</span>
+          </div>
+          <div class="article-up-info">
+            <div class="user">
+              <img src="../Image/avatar.jpg" alt="">
+              夏晨旭202225059
+            </div>            
+          </div>
+          <hr class="title-line">
+          <div id="article-content" class="article-content">
+            <p>欢迎来到“我的大学生活”网站！这里记录了我上大学前后的生活点滴、学习经验、校园活动等各个方面。本网站为对外经济贸易大学《信息发布与网页设计》课程期末设计，作者夏晨旭，学号202225059，联系作者邮箱：1316918018@qq.com。</p>
+            <p>本网站使用了HTML、CSS、JavaScript等前端技术。包括DOM,iconfont,canvas等方面。屏幕分辨率：1920*1080。</p>
+            <p>使用左侧导航可以访问各网页，以下是各网页主要功能：</p>
+            <h2>index网页</h2>
+            <p>导航网页，包括：</p>
+            <p>0、音乐控件，可以播放、暂停、切换音乐。</p>
+            <p>1、顶部信息栏，包含学校、学院、姓名、照片、学号、主题等信息。点击学校图标可以刷新网页，点击学院图标将连接到学院网站。</p>
+            <p>2、左侧导航栏，点击各模块可在右侧“目标栏”显示对应网页。</p>
+            <p>3、右侧目标栏，负责展示各网页。</p>
+            <h2>我的昨天</h2>
+            <p>展示自己过去的经历，包括：</p>
+            <p>0、音乐控件，可以播放、暂停、切换音乐。</p>
+            <p>1、我的照片，将鼠标移动至图片上可切换图片。</p>
+            <p>2、大学以前，用矩形、椭圆、多边形热区画图工具为“yesterday”图片添加三个热区，点击热区可改变下侧展示内容。</p>
+            <p>3、使用canvas制作互动网页背景，可以检测鼠标移动与点击。</p>
+            <h2>我的今天</h2>
+            <p>展示自己的现在，包括：</p>
+            <p>0、音乐控件，可以播放、暂停、切换音乐。</p>
+            <p>1、左侧导航菜单，移动至“我的今天”上可显示菜单，点击菜单对应模块会改变右侧内容，右侧内容含返回键，点击可返回“大学以后”。</p>
+            <p>2、使用canvas制作互动网页背景，可以检测鼠标移动与点击。</p>
+            <h2>我的明天</h2>
+            <p>畅想自己的未来，包括：</p>
+            <p>0、音乐控件，可以播放、暂停、切换音乐，添加了自动播放功能。</p>
+            <p>1、歌词区域，歌词与歌曲播放同步滚动，鼠标移动至歌词上可使歌词停止滚动，方便用户查看歌词。</p>
+            <p>2、未来五年要读的书，展示了封面、书名、作者、出版社等信息，鼠标移至封面可展示图书内容简介。</p>
+            <p>3、未来五年的旅游规划，展示了景点的图像、所在国家、城市等信息，鼠标移至图像可展示景点简介。</p>
+            <h2>我的爱好</h2>
+            <p>介绍自己的爱好，包括：</p>
+            <p>0、音乐控件，可以播放、暂停、切换音乐。</p>
+            <p>1、爱好收集表单，使用iconfont字体图标节省空间，提升加载速度。</p>
+            <p>2、表单中除了多选框都包含输入内容检测：姓名要是6~10位字母或数字；密码要是6~20位数字字母符号；性别必须选中一个；家乡必须选中一个；</p>
+            <p>3、输入结束或者提交表单将会检测内容，内容不合法会报错。</p>
+            <h2>我的美食</h2>
+            <p>介绍一些美食，包括：</p>
+            <p>0、音乐控件，可以播放、暂停、切换音乐。</p>
+            <p>1、美食轮播图，每一秒自动切换下一张美食图片，鼠标移至轮播图区域停止图片轮换，方便用户操作，点击右下角按钮可切换前/后一张轮播图。</p>
+            <p>2、贸大食堂与新疆美食，鼠标移至美食图片上方有展示效果。</p>
+            <br>
+            <br>
+            <hr>
+            <h2>写在最后</h2>
+            <p>至此本网站所有内容展示完毕，感谢您的观看，在这里感谢我学习前端路上的三位老师：大秋、pink和王树西老师。</p>
+            <p>本网页是《信息发布与网页设计》课程期末设计，也是我对学习了两个月的前端技术的总结作品，第一份实习希望能找到与前端技术相关的工作，以此作为进入互联网领域工作的资格。最后一个网页的背景音乐特意选了两首《进击的巨人》的配乐，希望未来的自己能够自由地生活下去吧！</p>
+          </div>
+          <div class="article-footer-box">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <!-- 底部信息栏 -->
+  <div class="infor">
+    <p>本网页为对外经济贸易大学《信息发布与网页设计》课程期末设计</p>
+    <p>如有雷同纯属巧合，侵权请联系作者:1316918018@qq.com</p>
+    <p>夏晨旭202225059-我的大学生活-站点说明</p>
+  </div>
+  <script src="../JavaScript/description.js"></script>
+</body>
+</html>

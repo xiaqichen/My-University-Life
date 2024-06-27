@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>202225059夏晨旭我的美食</title>
+  <link rel="stylesheet" href="../Css/food.css">
+  <link rel="stylesheet" href="../Css/base.css">
+</head>
+<body>
+  <!-- 播放器部分 -->
+  <div class="btn-audio">
+    <div style="width: 130px; height: 130px; background-color:#dcdcdc; padding: 5px; margin: 10px; border-radius: 50%; border: solid 1px #888;">
+      <div style="width: 120px; height: 120px; background-color:#333; padding: 15px; border-radius: 50%;">
+        <img src="../Image/RADWIMPS - スパークル (movie ver.).jpg" id="songsPic" alt="" style="width: 90px; border-radius: 50%;">
+      </div>
+    </div>
+    <div class="lf">
+      <div style="height: 80px;">
+        <p style="font-size: 1.2rem; color: #333;margin: 1rem 0 0.3rem 0;">スパークル</p>
+        <p style="font-size: 1rem; color: #888;">君の名は。</p>  
+      </div>
+      <img src="../Image/上一首.png" alt="">
+      <img src="../Image/播放.png" alt="">
+      <img src="../Image/下一首.png" alt="">
+    </div>
+    <img src="../Image/背景音乐.png" alt="" style="width: 2rem;position: absolute;bottom: 0.5rem;right: 0.5rem;">
+    <div class="mp3Box">
+      <audio id="mp3Btn">
+          <source src="../Sound/RADWIMPS - スパークル (movie ver.).mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+  </div>
+  <h3>我的美食</h3>
+  <div class="slider">
+    <div class="slider-wrapper">
+      <img src="../Image/美食1.jpg" alt="" />
+    </div>
+    <div class="slider-footer">
+      <p>酥炸茄盒</p>
+      <ul class="slider-indicator">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="toggle">
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+      </div>
+    </div>
+  </div>
+  <!-- 贸大食堂 -->
+  <div class="xtx_goods_new xtx_panel">
+    <div class="wrapper">
+      <!-- 面板头部 -->
+      <div class="xtx_panel_header">
+        <h3>贸大食堂<small>新鲜出炉 品质靠谱</small></h3>
+      </div>
+      <!-- 美食列表 -->
+      <div class="xtx_panel_goods_1">
+        <a href="javascript:;">
+          <img src="../Image/food1.jpg" alt="">
+          <span class="name">冰糖葫芦</span>
+        </a>
+        <a href="javascript:;">
+          <img src="../Image/food2.jpg" alt="">
+          <span class="name">锅包肉</span>
+        </a>
+        <a href="javascript:;">
+          <img src="../Image/food3.jpg" alt="">
+          <span class="name">鸡蛋灌饼</span>
+        </a>
+        <a href="javascript:;">
+          <img src="../Image/food4.jpg" alt="">
+          <span class="name">招牌原味猪肚鸡</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- 人气推荐 -->
+  <div class="xtx_goods_popular xtx_panel">
+    <div class="wrapper">
+      <!-- 面板头部 -->
+      <div class="xtx_panel_header">
+        <h3>新疆美食<small>特色风味 不容错过</small></h3>
+      </div>
+      <!-- 商品列表 -->
+      <div class="xtx_panel_goods_1">
+        <a href="javascript:;">
+          <img src="../Image/food5.jpg">
+          <span class="title">拉条子拌面</span>
+          <span class="alt">“老板来碗加面~”</span>
+        </a>
+        <a href="./index-hot.html">
+          <img src="../Image/food6.jpg">
+          <span class="title">羊肉抓饭</span>
+          <span class="alt">大米颗粒分明，油亮生辉</span>
+        </a>
+        <a href="./index-one.html">
+          <img src="../Image/food7.jpg">
+          <span class="title">土坑烤包子</span>
+          <span class="alt">外皮酥脆 油少肉多</span>
+        </a>
+        <a href="javascript:;">
+          <img src="../Image/food8.jpg">
+          <span class="title">大盘鸡</span>
+          <span class="alt">色彩鲜艳 辣中有香</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部信息栏 -->
+  <div class="infor">
+    <p>本网页为对外经济贸易大学《信息发布与网页设计》课程期末设计</p>
+    <p>如有雷同纯属巧合，侵权请联系作者:1316918018@qq.com</p>
+    <p>夏晨旭202225059-我的大学生活-我的美食</p>
+  </div>
+  <script src="../JavaScript/food.js"></script>
+</body>
+</html>

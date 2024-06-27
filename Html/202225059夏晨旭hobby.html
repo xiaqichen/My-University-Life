@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>202225059夏晨旭我的爱好</title>
+  <link rel="stylesheet" href="../Css/hobby.css">
+  <link rel="stylesheet" href="../Css/base.css">
+  <link rel="stylesheet" href="../Text/iconfont/iconfont.css">
+</head>
+<body>
+  <!-- 播放器部分 -->
+  <div class="btn-audio">
+    <div style="width: 130px; height: 130px; background-color:#dcdcdc; padding: 5px; margin: 10px; border-radius: 50%; border: solid 1px #888;">
+      <div style="width: 120px; height: 120px; background-color:#333; padding: 15px; border-radius: 50%;">
+        <img src="../Image/RADWIMPS - 夢灯籠.jpg" id="songsPic" alt="" style="width: 90px; border-radius: 50%;">
+      </div>
+    </div>
+    <div class="lf">
+      <div style="height: 80px;">
+        <p style="font-size: 1.2rem; color: #333;margin: 1rem 0 0.3rem 0;">夢灯籠</p>
+        <p style="font-size: 1rem; color: #888;">梦灯笼</p>  
+      </div>
+      <img src="../Image/上一首.png" alt="">
+      <img src="../Image/播放.png" alt="">
+      <img src="../Image/下一首.png" alt="">
+    </div>
+    <img src="../Image/背景音乐.png" alt="" style="width: 2rem;position: absolute;bottom: 0.5rem;right: 0.5rem;">
+    <div class="mp3Box">
+      <audio id="mp3Btn">
+          <source src="../Sound/RADWIMPS - 夢灯籠.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+  </div>
+  <!-- 表格部分 -->
+  <div class="general">
+    <h3>我的爱好</h3>
+    <form>
+      <div data-prop="username" class="form-item">
+        <span class="iconfont icon-zhanghao"></span>
+        姓名
+        <input name="username" type="text" placeholder="用户名称">
+        <span class="msg"></span>
+      </div>     
+      <div data-prop="password" class="form-item">
+        <span class="iconfont icon-jiesuo"></span>
+        密码
+        <input name="password" type="password" placeholder="6至20位字母、数字和符号组合密码">
+        <span class="msg"></span>
+      </div>
+      <div data-prop="gender" class="form-item">
+        <span class="iconfont icon-xingbie"></span>
+        性别
+        <label>
+          <input name="gender" type="radio">
+          <span class="iconfont icon-nan" style="font-size: 16px;"></span>男
+        </label>
+        <label>
+          <input name="gender" type="radio">
+          <span class="iconfont icon-nv" style="font-size: 18px;"></span>女  
+        </label>
+        <span class="msg"></span>
+      </div>
+      <div data-prop="food" class="form-item">
+        <span class="iconfont icon-meishi"></span>
+        美食
+        <label>
+          <input type="checkbox" name="food">
+          <div class="food">
+            <img src="../Image/美食1.jpg" alt="">
+            油炸藕盒
+          </div>
+        </label>
+        <label>
+          <input type="checkbox" name="food">
+          <div class="food">
+            <img src="../Image/美食2.jpg" alt="">
+            番茄炖牛肉
+          </div>          
+        </label>
+        <label>
+          <input type="checkbox" name="food">
+          <div class="food">
+            <img src="../Image/美食3.jpg" alt="">
+            草莓焦糖炖蛋白
+          </div>
+        </label>
+        <label>
+          <input type="checkbox" name="food">
+          <div class="food">
+            <img src="../Image/美食4.jpg" alt="">
+            孜然肥羊卷
+          </div>
+        </label>
+        <label>
+          <input type="checkbox" name="food">
+          <div class="food">
+            <img src="../Image/美食5.jpg" alt="">
+            豆沙粽
+          </div>
+        </label>
+        <label>
+          <input type="checkbox" name="food">
+          <div class="food">
+            <img src="../Image/美食6.jpg" alt="">
+            皮蛋瘦肉粥
+          </div>
+        </label>       
+        <span class="msg"></span>
+      </div>
+      <div data-prop="hometown" class="form-item">
+        <span class="iconfont icon-jiaxiang"></span>
+        家乡
+        <select name="hometown">
+          <option selected>请选择你的家乡</option>
+          <option>北京</option>
+          <option>天津</option>
+          <option>河北</option>
+          <option>黑龙江</option>
+          <option>安徽</option>
+          <option>新疆</option>
+          <option>其他</option>
+        </select>
+        <span class="msg"></span>
+      </div>
+      <button class="submit">提交</button>
+      <button class="reset">重置
+        <span class="iconfont icon-zhongzhi"></span>
+      </button>     
+    </form>
+  </div>
+  <!-- 底部信息栏 -->
+  <div class="infor">
+    <p>本网页为对外经济贸易大学《信息发布与网页设计》课程期末设计</p>
+    <p>如有雷同纯属巧合，侵权请联系作者:1316918018@qq.com</p>
+    <p>夏晨旭202225059-我的大学生活-我的爱好</p>
+  </div>
+  <script src="../JavaScript/hobby.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+
+.btn-audio{
+  width: 402px;
+  height: 150px;
+  border: 1px solid #ebebeb;
+  background-color: #fdfdfd;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+  margin: 10px 0 10px 798px;
+  position: fixed;
+  display: flex;
+}
+
+.btn-audio .lf{
+  padding-left: 30px;
+}
+
+.btn-audio .lf img{
+  width: 35px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+h3{
+  font-size: 26px;
+  font-weight: normal;
+  color: #999999;
+  padding-left: 50px;
+  height: 180px;
+  line-height: 180px;
+}
+
+.slider {
+  width: 560px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 320px;
+}
+
+.slider-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.slider-footer {
+  height: 80px;
+  background-color: rgb(100, 67, 68);
+  padding: 12px 12px 0 12px;
+  position: relative;
+}
+
+.slider-footer .toggle {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  display: flex;
+}
+
+.slider-footer .toggle button {
+  margin-right: 12px;
+  width: 28px;
+  height: 28px;
+  appearance: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.slider-footer .toggle button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.slider-footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.slider-indicator {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.slider-indicator li {
+  width: 8px;
+  height: 8px;
+  margin: 4px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.slider-indicator li.active {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+.xtx_panel .xtx_panel_header{
+  padding: 40px 0;
+}
+
+.xtx_panel .xtx_panel_header h3 {
+  height: 35px;
+  line-height: 35px;
+  margin-left: 6px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #333;
+  /* float: left; */
+}
+
+.xtx_panel .xtx_panel_header small {
+  margin-left: 22px;
+  font-size: 16px;
+  color: #999;
+}
+.xtx_panel .xtx_panel_goods_1 {
+  text-align: justify;
+  font-size: 0;
+  width: 1200px;
+}
+
+.xtx_panel .xtx_panel_goods_1:after {
+  content: "";
+  display: inline-block;
+  width: 296px;
+  height: 0;
+}
+
+.xtx_panel .xtx_panel_goods_1 a {
+  display: inline-block;
+  width: 296px;
+  height: 406px;
+  text-align: center;
+}
+
+.xtx_panel .xtx_panel_goods_1 img {
+  width: 296px;
+  height: 296px;
+}
+/* 贸大食堂 */
+.xtx_goods_new .xtx_panel_goods_1 a {
+  background-color: rgba(135, 206, 250, 0.3);
+  transition: 0.5s;
+  position: relative;
+  top: 0;
+}
+
+.xtx_goods_new .xtx_panel_goods_1 a:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  top: -3px;
+}
+
+.xtx_goods_new .xtx_panel_goods_1 .name {
+  display: inline-block;
+  width: 100%;
+  margin: 12px 0 10px;
+  font-size: 22px;
+}
+
+.xtx_goods_new .xtx_panel_goods_1 .price {
+  font-size: 23px;
+  color: #CF4444;
+}
+
+.xtx_goods_new .xtx_panel_goods_1 small {
+  font-size: 16px;
+}
+
+/** 新疆美食 **/
+.xtx_goods_popular {
+  padding-bottom: 42px;
+}
+
+.xtx_goods_popular .xtx_panel_goods_1 a {
+  transition: 0.5s;
+  background-color: rgba(135, 206, 250, 0.3);
+}
+
+.xtx_goods_popular .xtx_panel_goods_1 a:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  transform: translate(0, -3px);
+}
+
+.xtx_goods_popular .xtx_panel_goods_1 .title {
+  display: inline-block;
+  width: 100%;
+  line-height: 1;
+  margin: 20px 0 16px;
+  font-size: 22px;
+}
+
+.xtx_goods_popular .xtx_panel_goods_1 .alt {
+  font-size: 18px;
+  color: #999;
+}
+
+
+
+.infor{
+  padding-top: 60px;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
